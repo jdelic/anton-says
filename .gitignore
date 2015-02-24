@@ -1,0 +1,8 @@
+*.pyc
+data
+holly.log
+.lock
+.idea
+*.iml
+*.egg-info
+

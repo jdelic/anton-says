@@ -11,4 +11,10 @@ setup(
     data_files=[('', ['README.md']), ],
     version=_version,
     packages=_packages,
+    install_requires=[
+        'irc.anton',
+    ],
+    entry_points={
+        'anton.external.modules': ['anton_says = anton_says',]
+    },
 )
